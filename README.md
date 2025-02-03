@@ -1,10 +1,8 @@
 # FancyBox for cli/ui
 
-A new FrameStyle for cli/ui gem
+A new FrameStyle for [Shopify/cli-ui](https://github.com/Shopify/cli-ui) gem
 
 ## Usage:
-
-    #!/usr/bin/env ruby
 
     require 'cli/ui'
     require_relative 'fancy_box'
@@ -39,3 +37,8 @@ A new FrameStyle for cli/ui gem
       CLI::UI::Frame.divider("{{i}} Let's do a divider too")
       puts "More information" << FancyBox.lineterm
     end
+
+## Produces this ouput
+
+<img width="1021" alt="Screenshot 2025-02-03 at 1 51 24 PM" src="https://github.com/user-attachments/assets/3a425dbc-13a4-4ee9-8a7d-ad91b080ce79" />
+
